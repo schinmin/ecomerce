@@ -1,0 +1,96 @@
+# ======================================
+# Flutter / Dart
+# ======================================
+.dart_tool/
+.packages
+.pub/
+build/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Lock files (optional – keep if you want exact versions)
+# pubspec.lock
+
+# ======================================
+# IDE / Editor
+# ======================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ======================================
+# Android
+# ======================================
+android/.gradle/
+android/local.properties
+
+# Signing / secrets
+android/**/key.properties
+android/**/keystore.jks
+android/**/*.keystore
+
+# Build outputs
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ======================================
+# iOS
+# ======================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+
+# ======================================
+# macOS
+# ======================================
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ======================================
+# Windows
+# ======================================
+windows/flutter/ephemeral/
+
+# ======================================
+# Linux
+# ======================================
+linux/flutter/ephemeral/
+
+# ======================================
+# Web
+# ======================================
+web/build/
+
+# ======================================
+# Environment / Secrets
+# ======================================
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# ======================================
+# Logs & Coverage
+# ======================================
+*.log
+coverage/
+
+# ======================================
+# OS Files
+# ======================================
+.DS_Store
+Thumbs.db
