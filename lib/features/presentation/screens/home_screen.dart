@@ -1,4 +1,5 @@
 import 'package:ecomerce/core/widgets/home_app_bar.dart';
+import 'package:ecomerce/features/presentation/screens/home_feed_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -18,7 +19,7 @@ class _HomeState extends State<Home> {
   );
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Text('Home', style: optionStyle),
+     HomeFeedScreen(),
     Text('Search', style: optionStyle),
     Text('Profile', style: optionStyle),
     Text('Settings', style: optionStyle),
